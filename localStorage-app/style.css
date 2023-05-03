@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.all-color {
+  width: 600px;
+  height: 130px;
+  background-color: #eee;
+  margin: 50px auto 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.one,
+.two,
+.three,
+.four {
+  width: 115px;
+  height: 90px;
+  border-radius: 8px;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.one.active,
+.two.active,
+.three.active,
+.four.active {
+  opacity: 1;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover {
+  opacity: 1;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: darkblue;
+}
+
+.three {
+  background-color: darkcyan;
+}
+
+.four {
+  background-color: darkslategray;
+}
+
+.big-color {
+  box-sizing: border-box;
+  border: 15px solid #eee;
+  width: 600px;
+  height: 400px;
+  background-color: red;
+  margin: auto;
+  border-radius: 8px;
+}
